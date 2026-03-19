@@ -1,0 +1,23 @@
+
+public class UnaryOperators {
+
+	public static void main(String[] args) {
+
+		int x = 10;
+
+		System.out.println("Value of x:" + x);
+
+		int y = x--;
+
+		System.out.println("Value of x:" + x);
+		System.out.println("Value of y:" + y);
+
+		int z = x++;
+
+		System.out.println("Value of x:" + x);
+		System.out.println("Value of y:" + z);
+		
+		System.out.println("Value of x:" +x);
+	}
+
+}

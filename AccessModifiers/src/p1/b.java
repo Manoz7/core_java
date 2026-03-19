@@ -1,0 +1,14 @@
+package p1;
+
+public class b {
+
+	public static void main(String[] args) {
+		
+		A aobject = new A();
+		System.out.println(aobject.b);
+		System.out.println(aobject.c);
+		System.out.println(aobject.d);
+
+	}
+
+}

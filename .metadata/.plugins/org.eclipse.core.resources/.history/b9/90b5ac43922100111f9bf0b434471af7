@@ -1,0 +1,4 @@
+
+public class JDK7 extends JDK6 {
+
+}

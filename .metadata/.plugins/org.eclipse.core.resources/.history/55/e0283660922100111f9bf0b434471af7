@@ -1,0 +1,4 @@
+
+public class JDK8 extends JDK7 {
+
+}

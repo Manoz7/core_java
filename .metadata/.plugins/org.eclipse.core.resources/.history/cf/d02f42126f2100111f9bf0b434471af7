@@ -1,0 +1,18 @@
+package com.emc.test;
+
+import com.emc.entities.Organizer;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Organizer organizer = new Organizer();
+		organizer.id = 1525l;
+		organizer.name = "Java Programmer";
+		
+		System.out.println("Id: "+organizer.id);
+		System.out.println("Name: "+organizer.name);
+
+	}
+
+}

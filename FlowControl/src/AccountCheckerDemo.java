@@ -1,0 +1,22 @@
+
+public class AccountCheckerDemo {
+
+	public static void main(String[] args) {
+
+		String choices = "check_balance";
+
+		if (choices == "check_balance") {
+			System.out.println("Check Balance");
+		} else if (choices == "change_pin") {
+			System.out.println("Change Pin");
+		} else if (choices == "withdraw_cash") {
+			System.out.println("Withdraw Cash");
+		} else if (choices == "deposit_check") {
+			System.out.println("Deposit the Check!!");
+		} else {
+			System.out.println("Time OUT!!");
+		}
+
+	}
+
+}

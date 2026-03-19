@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Assignment3 {
+
+	public static void main(String[] args) {
+		System.out.println("Enter a number:");
+		Scanner input = new Scanner(System.in);
+
+		int num = input.nextInt();
+
+//		For Loop
+		for (int i = 1; i <= num; i++) {
+			if (i % 10 == 0) {
+				continue;
+			} else if (i > 100) {
+				break;
+			} else {
+				System.out.println(i);
+			}
+		}
+	}
+}
